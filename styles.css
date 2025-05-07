@@ -8,7 +8,88 @@ h1{
     padding: 1rem 0 1rem 0;
     align-items: center;
     text-align: center;
+    max-width: 60rem;
 }
-.shop, .market, .foodtruck{
+.location{
     text-align: center;
+    background-color: #ffe2ea;
+    max-width: 55rem;
+}
+header>img{
+    width: 25rem;
+    max-width: 100%;
+}
+header{
+    padding: .25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.home{
+    justify-content: center;
+}
+nav>a{
+    background-color: #fff;
+    color: black;
+    padding: 1rem 1rem;
+    display: inline-block;
+    margin: 1;
+    font-size: larger;
+}
+nav>a:hover{
+    background-color: #ffe2ea;
+}
+.home>img{
+    width: 30rem;
+    max-width: 100%;
+    float: right;
+}
+.highlights{float: left;}
+.about>img{
+    width: 30rem;
+    max-width: 100%;
+}
+.about{
+    padding: 1rem;
+    display: inline-block;
+    margin: .5rem;
+    vertical-align: top;
+    width: 30%;
+}
+.specials{
+    padding: 1rem;
+    display: inline-block;
+    margin: .5rem;
+    vertical-align: top;
+    width: 20%;
+}
+.menu{
+    padding: 1rem;
+    display: inline-block;
+    margin: 2rem;
+    vertical-align: top;
+    width: 18%;
+}
+.phoneemail{
+    background-color: #ffe2ea;
+    max-width: 50rem;
+    text-align: center;
+    font-size: larger;
+}
+.socials{
+    background-color: #ffe2ea;
+    max-width: 50rem;
+    text-align: center;
+    font-size: larger;
+}
+.location{
+    padding: 1rem;
+    display: block;
+    margin: 3rem;
+    width: 50%;
+}
+.bakery>img{
+    width: 20rem;
+    max-width: 100%;
 }
